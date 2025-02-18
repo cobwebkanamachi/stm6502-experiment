@@ -148,10 +148,11 @@ notice:This makes stm32f4 disco's flash unlock without stlink utility.
 
 2.8 type into teraterm or you prefered terminal bellow.
 > stm32f4_flash stm6502.elf
-notice: stm6502.elf is bellow.</PRE>
+notice: stm6502.elf is bellow.Please download this on your PC</PRE>
 https://github.com/BigEd/stm6502/blob/master/testing-binaries/stm6502.elf
 <PRE>
 notice: if downloaded then set file into the path of (1) GDB bin path.
+I set this file several path(same file).
 </PRE>
 <PRE>
 2.9 check connect disco with ft232rl and ft232rl with your PC.
@@ -167,6 +168,47 @@ B*
    PC SR AC XR YR SP
 ;F80F 94 F8 FF 00 FF
 ------------------------------------
+   
 2.12 invoke Eh Basic 
+type into GDB shown bellow, if running, stop it CTRL+C then type.
+load 6502code/basic.o 0x20000000
+then type into GDB run.
+(GDB) run (enter).
+shown like bellow.
+------------------------------------
+(gdb) load 6502code/basic.o 0x20000000
+Loading section .data, size 0x10000 lma 0x20000000
+Start address 0x00000000, load size 65536
+Transfer rate: 85 KB/sec, 13107 bytes/write.
+(gdb) run
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program:
+warning: No executable has been specified and target does not support
+determining executable automatically.  Try using the "file" command.
+------------------------------------
+   
+   
+then change window to supermon (teraterm connected with disco of serial) .
+type shown bellow.
+g c800
+voila. shown like bellow.
+------------------------------------
+G C800
+Derived from EhBASIC
+[C]old/[W]arm?
+48382 Bytes free
+Enhanced BASIC 2.22
 
+Ready
+PRINT(1/3)
+ .333333
+
+Ready
+PRINT(1/3*3)
+ 1
+Ready
+------------------------------------
+Now you have 6502 with supermon and EhBasic Machine on your hand.
+Enjoy!   
 </PRE>
