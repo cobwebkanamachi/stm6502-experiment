@@ -19,6 +19,9 @@ https://www.amazon.co.jp/Rasbee-FTDI232-FT232RL-USB%EF%BC%8DTTL-Arduino%E3%81%AB
 <PRE>
 1.3.3 target board (stm32f4 discovery)
 Please remove stlink jumpers(two jumper near ST logo). If not removed, stlink of disco's upper side works.
+You could buy disco like bellow.</PRE>
+https://www.marutsu.co.jp/pc/i/14305647/
+<PRE>
 1.3.4 some jumper wire (female-female x 8 or above)
  disco              ft232rl
  1. PA3(RX)---------TX
