@@ -1,5 +1,5 @@
 # stm6502-experiment
-clone of https://github.com/BigEd/stm6502 and experiment with applying openocd to it.
+clone of https://github.com/BigEd/stm6502 and experiment with applying openocd to it.<BR>
 Sorry NO WARRANTY. Your experiment is at your own risk.
 <PRE>
 1. prep.
