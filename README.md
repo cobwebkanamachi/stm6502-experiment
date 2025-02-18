@@ -170,6 +170,12 @@ B*
 ------------------------------------
    
 2.12 invoke Eh Basic 
+notice: basic.o is this.</PRE>
+https://github.com/BigEd/stm6502/blob/master/testing-binaries/basic.o
+<PRE>
+I set https://github.com/BigEd/stm6502/tree/master/testing-binaries 's several files
+into under 6502code/ folder. this is set under GDB bin folder. 
+
 type into GDB shown bellow, if running, stop it CTRL+C then type.
 load 6502code/basic.o 0x20000000
 then type into GDB run.
