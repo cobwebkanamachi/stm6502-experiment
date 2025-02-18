@@ -7,8 +7,14 @@ clone of https://github.com/BigEd/stm6502 and experiment with applying openocd t
    also you should use 7zip.
 1.2 extract all to windows folder you choiced.
 1.3 hardware prep.
-1.3.1 stlink
+1.3.1 stlink(clone)
+like bellow, but you check that is F101 or F103 misc attributes(not marked on package or body).If you done check it, choice connetion wire pin by F101 or F103.</PRE>
+https://www.amazon.co.jp/YOUMILE-BG-YM-973898-Youmile-ST-LINK-V2%E3%82%A8%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%80%E3%83%BC%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9E%E3%83%BC%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E3%83%A6%E3%83%8B%E3%83%83%E3%83%88STM8/dp/B084VMYNF7/ref=asc_df_B084VMYNF7?mcid=23eedf02bc1337aebf79e5d56d641719&tag=jpgo-22&linkCode=df0&hvadid=707442675357&hvpos=&hvnetw=g&hvrand=347283457245925512&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1009292&hvtargid=pla-1660779238061&psc=1&gad_source=1
+<PRE>
 1.3.2 ft232rl
+like bellow.</PRE>
+https://www.amazon.co.jp/Rasbee-FTDI232-FT232RL-USB%EF%BC%8DTTL-Arduino%E3%81%AB%E5%AF%BE%E5%BF%9C/dp/B09184LV3V/ref=asc_df_B09184LV3V?mcid=a1be1273696e33d9a52510bd64f20568&tag=jpgo-22&linkCode=df0&hvadid=707563100591&hvpos=&hvnetw=g&hvrand=11645460739277464130&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1009292&hvtargid=pla-1456684805499&psc=1&gad_source=1
+<PRE>
 1.3.3 target board (stm32f4 discovery)
 1.3.4 some jumper wire (female-female x 8 or above)
  disco              ft232rl
